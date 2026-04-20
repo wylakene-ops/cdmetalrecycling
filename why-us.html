@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Choose Us | C&D Metal Recycling | Upper Peninsula, MI</title>
+<meta name="description" content="Why choose C&D Metal Recycling? Top prices, same-day pickup, fully insured, 24/7 snow removal, and local Upper Peninsula service. No middlemen, no lowball offers.">
+<meta property="og:title" content="Why Choose C&D Metal Recycling | UP Michigan">
+<meta property="og:description" content="Top prices, same-day service, fully insured, 24/7 snow removal. Local UP Michigan business — no out-of-state call centers.">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.cdmetalrecycling.com/why-us.html">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="shared.css">
+<noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+<style>
+  /* REASONS GRID */
+  .reasons-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+  .reason-card {
+    background: var(--dark2); padding: 2.5rem 2rem;
+    border: 1px solid rgba(109,212,0,0.12); position: relative; overflow: hidden;
+    transition: all 0.3s;
+  }
+  .reason-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--green), var(--green-bright));
+  }
+  .reason-card::after {
+    content: attr(data-num); position: absolute; bottom: -10px; right: 10px;
+    font-family: 'Bebas Neue', sans-serif; font-size: 7rem; color: rgba(109,212,0,0.05);
+    line-height: 1; pointer-events: none;
+  }
+  .reason-card:hover { border-color: rgba(109,212,0,0.35); transform: translateY(-5px); box-shadow: 0 16px 50px rgba(109,212,0,0.1); }
+  .reason-icon { font-size: 2.8rem; display: block; margin-bottom: 1rem; }
+  .reason-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.75rem; }
+  .reason-card p { color: var(--gray); font-size: 0.95rem; line-height: 1.7; }
+
+  /* GUARANTEE STRIP */
+  .guarantee-strip {
+    background: var(--dark3); border: 1px solid rgba(109,212,0,0.2);
+    padding: 2.5rem; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+  .guarantee-strip .g-icon { font-size: 3.5rem; flex-shrink: 0; }
+  .guarantee-strip h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.25rem; }
+  .guarantee-strip p { color: var(--gray); font-size: 0.95rem; line-height: 1.6; }
+
+  /* COMPARISON TABLE */
+  .compare-wrap { overflow-x: auto; margin-top: 2rem; }
+  .compare-table { width: 100%; border-collapse: collapse; min-width: 500px; }
+  .compare-table th {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; letter-spacing: 2px;
+    padding: 1rem 1.5rem; text-align: left;
+  }
+  .compare-table th:first-child { background: var(--dark2); color: var(--gray); }
+  .compare-table th.us { background: var(--green); color: var(--black); text-align: center; }
+  .compare-table th.them { background: var(--dark3); color: var(--gray); text-align: center; }
+  .compare-table td {
+    padding: 0.9rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 1rem;
+  }
+  .compare-table td:first-child { background: var(--dark2); color: var(--white); }
+  .compare-table td.us-col { background: rgba(109,212,0,0.06); text-align: center; color: var(--green); font-size: 1.3rem; }
+  .compare-table td.them-col { background: var(--dark3); text-align: center; color: #666; font-size: 1.3rem; }
+  .compare-table tr:last-child td { border-bottom: none; }
+
+  /* VALUES SECTION */
+  .values-list { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem; }
+  .value-item {
+    display: flex; gap: 1.5rem; align-items: flex-start;
+    padding: 1.5rem; background: var(--dark2); border-left: 4px solid var(--green);
+    transition: all 0.25s;
+  }
+  .value-item:hover { background: var(--dark3); }
+  .value-icon { font-size: 2rem; flex-shrink: 0; }
+  .value-item h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.25rem; }
+  .value-item p { color: var(--gray); font-size: 0.9rem; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><img src="logo.png" alt="C&D Metal Recycling"></a>
+  <ul class="nav-links">
+    <li><a href="services.html">Services</a></li>
+    <li><a href="snow-removal.html">Snow Removal</a></li>
+    <li><a href="escrap.html">E-Scrap</a></li>
+    <li><a href="why-us.html" class="active">Why Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-contact-block"><span class="nav-contact-name">Curtis Houghton</span><a href="tel:9062369023" class="nav-phone">📞 906-236-9023</a></div>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Why Us</div>
+    <h1>WHY CHOOSE <span class="green">C&amp;D?</span></h1>
+    <div class="page-hero-sub">Local, trusted, fully insured — the UP Michigan difference</div>
+  </div>
+  <div class="page-hero-stripes"></div>
+</div>
+
+<!-- REASONS -->
+<section class="content-section" style="background: var(--dark);">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">The C&amp;D Difference</p>
+      <h2 class="section-title">6 REASONS TO <span class="green">CHOOSE US</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="reasons-grid reveal">
+      <div class="reason-card" data-num="01">
+        <span class="reason-icon" aria-hidden="true">💰</span>
+        <h3>Top Prices — Every Time</h3>
+        <p>We pay more for your scrap, period. No lowball offers, no bait-and-switch. We track current commodity prices daily and pass that value on to you. Bring in your metal and walk out with cash you can count on.</p>
+      </div>
+      <div class="reason-card" data-num="02">
+        <span class="reason-icon" aria-hidden="true">⚡</span>
+        <h3>Fast, Reliable Service</h3>
+        <p>We show up when we say we will. Same-day pickup is available for scrap metal, junk removal, and junk car buyout. No waiting around for days — when you're ready, we're ready.</p>
+      </div>
+      <div class="reason-card" data-num="03">
+        <span class="reason-icon" aria-hidden="true">🛡️</span>
+        <h3>Fully Licensed &amp; Insured</h3>
+        <p>Every job we do is covered. Whether we're hauling scrap off your commercial property or clearing a parking lot after a storm, your property is protected. We carry full insurance so you never have to worry.</p>
+      </div>
+      <div class="reason-card" data-num="04">
+        <span class="reason-icon" aria-hidden="true">🕐</span>
+        <h3>24/7 Snow Removal</h3>
+        <p>Winter in the UP doesn't follow business hours, and neither do we. Our snow removal team is available around the clock — from emergency bank pushbacks at 3am to scheduled seasonal clearing all winter long.</p>
+      </div>
+      <div class="reason-card" data-num="05">
+        <span class="reason-icon" aria-hidden="true">🤝</span>
+        <h3>Local &amp; Trusted</h3>
+        <p>We live and work right here in the Upper Peninsula. We know what UP winters are like, what local businesses need, and what it means to be a good neighbor. No out-of-state call centers — just your community.</p>
+      </div>
+      <div class="reason-card" data-num="06">
+        <span class="reason-icon" aria-hidden="true">♻️</span>
+        <h3>Environmentally Responsible</h3>
+        <p>Every pound of metal we recycle is one less pound in a landfill. We handle e-waste and hazardous electronics the right way, keeping the Upper Peninsula clean for generations to come. Doing good business means doing right by the environment.</p>
+      </div>
+    </div>
+
+    <!-- GUARANTEE -->
+    <div class="guarantee-strip reveal">
+      <span class="g-icon" aria-hidden="true">🏆</span>
+      <div>
+        <h3>THE C&amp;D GUARANTEE</h3>
+        <p>We stand behind every job. If you're not happy with the price, the service, or the result — talk to us. We're a small local business and your reputation matters as much as ours. We'll make it right.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="content-section" style="background: var(--black);">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Side by Side</p>
+      <h2 class="section-title">US VS. <span class="green">THE REST</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="compare-wrap reveal">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="us">C&amp;D Metal Recycling</th>
+            <th class="them">Other Guys</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Top Market Prices</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>Same-Day Pickup</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>Fully Insured</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>24/7 Snow Removal</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>Local UP Michigan Business</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>E-Scrap Recycling</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+          <tr><td>Junk Car Buyout</td><td class="us-col">✓</td><td class="them-col">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- OUR VALUES -->
+<section class="content-section" style="background: var(--dark);">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">What We Stand For</p>
+      <h2 class="section-title">OUR <span class="green">VALUES</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="values-list reveal">
+      <div class="value-item">
+        <span class="value-icon" aria-hidden="true">💎</span>
+        <div>
+          <h4>Honesty</h4>
+          <p>The price we quote is the price you get. No hidden fees, no switching numbers at the last minute. We believe in straight talk and fair dealing every time.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-icon" aria-hidden="true">🌲</span>
+        <div>
+          <h4>Community</h4>
+          <p>The UP is home. We support local, hire local, and care about the community we serve. Every dollar you spend with us stays in the Upper Peninsula.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-icon" aria-hidden="true">🌍</span>
+        <div>
+          <h4>Sustainability</h4>
+          <p>Recycling metals and electronics isn't just business — it's a responsibility. We handle every material with the environment in mind, minimizing waste and maximizing what gets reused.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-icon" aria-hidden="true">⚡</span>
+        <div>
+          <h4>Efficiency</h4>
+          <p>Your time is valuable. We work fast, communicate clearly, and get in and out without making a mess. Respect for your time and property is non-negotiable.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <h2>READY TO WORK WITH US?</h2>
+  <p>Call today — top prices, fast service, fully insured</p>
+  <a href="tel:9062369023" class="btn-dark">Call 906-236-9023</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo"><img src="logo.png" alt="C&D Metal Recycling"></div>
+      <div class="footer-tagline">Upper Peninsula Michigan's Scrap Metal &amp; Recycling Experts</div>
+      <div class="footer-contact-small">906-236-9023 · 906-250-5498<br>www.CDMetalRecycling.com</div>
+    </div>
+    <nav class="footer-nav">
+      <a href="services.html">Services</a>
+      <a href="snow-removal.html">Snow Removal</a>
+      <a href="escrap.html">E-Scrap</a>
+      <a href="why-us.html">Why Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-copy">© <script>document.write(new Date().getFullYear())</script> C&amp;D Metal Recycling. Upper Peninsula, Michigan. All Rights Reserved.</div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(r => observer.observe(r));
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', () => { hamburger.classList.toggle('open'); navLinks.classList.toggle('open'); });
+  navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => { hamburger.classList.remove('open'); navLinks.classList.remove('open'); }));
+</script>
+</body>
+</html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C&D Metal Recycling | We Buy Scrap Metal | Marquette, MI</title>
+<meta name="description" content="C&D Metal Recycling buys scrap metal, junk cars, and e-waste in Michigan's Upper Peninsula. 24/7 snow removal. Call 906-236-9023 for a same-day quote.">
+<meta property="og:title" content="C&D Metal Recycling | We Buy Scrap Metal | UP Michigan">
+<meta property="og:description" content="Top dollar paid for scrap metal, junk cars & e-waste. 24/7 snow removal. Serving the Upper Peninsula of Michigan.">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.cdmetalrecycling.com/">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="shared.css">
+<noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+<style>
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden; padding-top: 70px;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse at 18% 55%, rgba(109,212,0,0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at 82% 20%, rgba(109,212,0,0.06) 0%, transparent 50%),
+      linear-gradient(180deg, #080808 0%, #0c100a 100%);
+  }
+  .hero-bg::after {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(109,212,0,0.12) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  }
+  .hero-orb {
+    position: absolute; border-radius: 50%; pointer-events: none;
+    background: radial-gradient(circle, rgba(109,212,0,0.08), transparent 70%);
+    animation: pulse-orb 6s ease-in-out infinite;
+  }
+  .hero-orb-1 { width: 600px; height: 600px; top: -100px; left: -150px; animation-delay: 0s; }
+  .hero-orb-2 { width: 400px; height: 400px; bottom: -50px; right: -80px; animation-delay: 3s; }
+  @keyframes pulse-orb { 0%,100% { transform: scale(1); opacity: 0.6; } 50% { transform: scale(1.1); opacity: 1; } }
+  .hero-stripes {
+    position: absolute; bottom: 0; left: 0; right: 0; height: 12px;
+    background: repeating-linear-gradient(-45deg, var(--green) 0px, var(--green) 20px, #080808 20px, #080808 40px);
+  }
+  .hero-content {
+    position: relative; z-index: 2; text-align: center;
+    padding: 2rem; max-width: 1000px;
+    animation: fadeUp 0.9s ease both;
+  }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  .hero-tag {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--green); color: var(--black);
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 900;
+    font-size: 0.85rem; letter-spacing: 3px; padding: 5px 18px;
+    margin-bottom: 1.5rem;
+    clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+  }
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(4rem, 12vw, 9rem);
+    line-height: 0.9; letter-spacing: 4px; margin-bottom: 0.5rem;
+  }
+  .hero h1 .green { color: var(--green); text-shadow: 0 0 40px var(--green-glow), 0 0 80px rgba(109,212,0,0.2); }
+  .hero-sub {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1.8rem, 5vw, 3.2rem);
+    color: var(--gray); letter-spacing: 6px; margin-bottom: 2rem;
+  }
+  .hero-phones { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; align-items: flex-end; }
+  .phone-badge-wrap { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+  .phone-badge-name { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.78rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gray); }
+  .phone-badge {
+    font-family: 'Bebas Neue', sans-serif; font-size: 2rem;
+    color: var(--green); text-shadow: 0 0 20px var(--green-glow);
+    letter-spacing: 3px; border: 2px solid var(--green);
+    padding: 8px 24px; position: relative; text-decoration: none;
+    transition: all 0.2s;
+    clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
+    background: rgba(109,212,0,0.05);
+  }
+  .phone-badge:hover { background: var(--green); color: var(--black); text-shadow: none; transform: scale(1.05); }
+  .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+  /* ── STATS STRIP ── */
+  .stats-strip {
+    background: var(--dark2); border-top: 1px solid rgba(109,212,0,0.15);
+    border-bottom: 1px solid rgba(109,212,0,0.15); padding: 2rem;
+  }
+  .stats-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; text-align: center; }
+  @media (max-width: 640px) { .stats-inner { grid-template-columns: repeat(2, 1fr); } }
+  .stat-item { padding: 1rem; position: relative; }
+  .stat-item:not(:last-child)::after {
+    content: ''; position: absolute; right: 0; top: 20%; bottom: 20%;
+    width: 1px; background: rgba(109,212,0,0.2);
+  }
+  @media (max-width: 640px) { .stat-item:nth-child(2)::after, .stat-item:nth-child(4)::after { display: none; } }
+  .stat-num {
+    font-family: 'Bebas Neue', sans-serif; font-size: 2.8rem;
+    color: var(--green); letter-spacing: 2px;
+    text-shadow: 0 0 20px var(--green-glow); line-height: 1;
+  }
+  .stat-label {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600;
+    font-size: 0.8rem; letter-spacing: 2px; color: var(--gray);
+    text-transform: uppercase; margin-top: 4px;
+  }
+
+  /* ── TICKER ── */
+  .ticker-bar { background: var(--green); padding: 12px 0; overflow: hidden; }
+  .ticker-inner { display: flex; animation: ticker 22s linear infinite; white-space: nowrap; }
+  .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--black); padding: 0 3rem; }
+  .ticker-sep { color: var(--black); opacity: 0.4; font-size: 1.5rem; line-height: 1; }
+  @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+  /* ── SERVICES ── */
+  #services { background: var(--dark); position: relative; padding: 5rem 2rem; }
+  #services::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: repeating-linear-gradient(-45deg, var(--green) 0, var(--green) 10px, transparent 10px, transparent 20px);
+  }
+  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+  .service-card {
+    background: var(--dark2); border: 1px solid rgba(109,212,0,0.12);
+    padding: 2.5rem 1.5rem 2rem; position: relative; overflow: hidden;
+    transition: all 0.3s; display: flex; flex-direction: column;
+    text-decoration: none; color: inherit;
+  }
+  .service-card::before {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--green), var(--green-bright));
+    transform: scaleX(0); transform-origin: left; transition: transform 0.35s;
+  }
+  .service-card::after {
+    content: ''; position: absolute; top: 0; right: 0;
+    width: 80px; height: 80px;
+    background: radial-gradient(circle at top right, rgba(109,212,0,0.08), transparent 70%);
+    transition: opacity 0.3s; opacity: 0;
+  }
+  .service-card:hover { border-color: rgba(109,212,0,0.45); transform: translateY(-6px); box-shadow: 0 16px 50px rgba(109,212,0,0.12); }
+  .service-card:hover::before { transform: scaleX(1); }
+  .service-card:hover::after { opacity: 1; }
+  .service-icon { font-size: 2.6rem; margin-bottom: 1rem; display: block; }
+  .service-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.5rem; }
+  .service-card p { font-size: 0.9rem; color: var(--gray); line-height: 1.6; flex: 1; }
+  .service-arrow {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+    font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--green); transition: gap 0.2s;
+  }
+  .service-card:hover .service-arrow { gap: 10px; }
+
+  /* CTA override — larger font than shared.css default */
+  .cta-band h2 { font-size: clamp(2.5rem, 7vw, 5rem); }
+  .cta-band p { font-size: 1.2rem; }
+
+  /* ── SNOW REMOVAL ── */
+  #snow { background: var(--dark2); position: relative; overflow: hidden; padding: 5rem 2rem; }
+  #snow::after {
+    content: ''; position: absolute; top: -100px; right: -100px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(109,212,0,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .snow-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  @media (max-width: 768px) { .snow-layout { grid-template-columns: 1fr; gap: 2rem; } }
+  .snow-checklist { list-style: none; display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+  .snow-checklist li {
+    display: flex; align-items: center; gap: 1rem;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600;
+    font-size: 1.15rem; letter-spacing: 1px;
+  }
+  .snow-checklist li::before {
+    content: '✓'; width: 28px; height: 28px;
+    background: var(--green); color: var(--black); font-weight: 900;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; font-size: 0.9rem;
+  }
+  .snow-right {
+    background: var(--dark3); border: 1px solid rgba(109,212,0,0.2);
+    padding: 2.5rem; position: relative;
+  }
+  .snow-right::before {
+    content: '24/7'; position: absolute; top: -18px; right: 20px;
+    font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 3px;
+    background: var(--green); color: var(--black); padding: 4px 16px;
+  }
+  .snow-right h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 2px; margin-bottom: 0.5rem; }
+  .snow-right p { color: var(--gray); line-height: 1.6; margin-bottom: 1.5rem; font-size: 0.95rem; }
+  .snow-phone { font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem; color: var(--green); letter-spacing: 3px; text-shadow: 0 0 20px var(--green-glow); display: block; margin-bottom: 0.3rem; text-decoration: none; }
+  .snow-phone:hover { color: var(--green-bright); }
+
+  /* ── E-SCRAP ── */
+  #escrap { background: var(--black); padding: 5rem 2rem; }
+  .escrap-board { background: var(--dark); border: 2px solid var(--green); overflow: hidden; box-shadow: 0 0 80px rgba(109,212,0,0.08); }
+  .escrap-header { background: var(--green); padding: 1.5rem 2rem; text-align: center; }
+  .escrap-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--black); letter-spacing: 4px; }
+  .escrap-header p { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; color: rgba(0,0,0,0.65); letter-spacing: 2px; font-size: 1rem; text-transform: uppercase; }
+  .escrap-cols { display: grid; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 600px) { .escrap-cols { grid-template-columns: 1fr; } }
+  .escrap-col { padding: 2rem; }
+  .escrap-col:first-child { border-right: 1px solid rgba(109,212,0,0.2); }
+  .escrap-col-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 3px; margin-bottom: 1.5rem; }
+  .escrap-col-title.paid { color: var(--yellow); }
+  .escrap-col-title.notpaid { color: #ff4444; }
+  .escrap-list { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; }
+  .escrap-list li { display: flex; align-items: center; gap: 0.75rem; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 1.05rem; }
+  .escrap-list li .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot.green { background: var(--green); }
+  .dot.red { background: #ff4444; }
+  .escrap-footer { background: rgba(109,212,0,0.08); border-top: 1px solid rgba(109,212,0,0.2); padding: 1rem 2rem; text-align: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; color: var(--yellow); letter-spacing: 2px; font-size: 0.95rem; text-transform: uppercase; }
+
+  /* ── WHY US ── */
+  #why { background: var(--dark); padding: 5rem 2rem; }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
+  .why-card {
+    text-align: center; padding: 2.5rem 1.5rem;
+    background: var(--dark2); border-top: 3px solid var(--green);
+    position: relative; transition: all 0.3s;
+  }
+  .why-card:hover { background: var(--dark3); box-shadow: 0 8px 40px rgba(109,212,0,0.1); transform: translateY(-5px); }
+  .why-num { font-family: 'Bebas Neue', sans-serif; font-size: 5rem; color: rgba(109,212,0,0.07); position: absolute; top: 10px; right: 16px; line-height: 1; }
+  .why-icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
+  .why-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.5rem; }
+  .why-card p { color: var(--gray); font-size: 0.9rem; line-height: 1.6; }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--black); text-align: center; position: relative; overflow: hidden; padding: 5rem 2rem; }
+  #contact::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 8px;
+    background: repeating-linear-gradient(-45deg, var(--green) 0, var(--green) 15px, #080808 15px, #080808 30px);
+  }
+  .contact-phones { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin: 2rem 0; }
+  .contact-phone-block { text-align: center; }
+  .contact-phone-label { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 0.8rem; letter-spacing: 3px; color: var(--gray); text-transform: uppercase; margin-bottom: 0.3rem; }
+  .contact-phone-num { font-family: 'Bebas Neue', sans-serif; font-size: 3rem; color: var(--green); text-shadow: 0 0 30px var(--green-glow); letter-spacing: 4px; text-decoration: none; transition: all 0.2s; display: block; }
+  .contact-phone-num:hover { color: var(--green-bright); text-shadow: 0 0 50px var(--green-glow); }
+  .contact-divider { width: 1px; height: 80px; background: rgba(109,212,0,0.3); align-self: center; }
+  @media (max-width: 600px) { .contact-divider { display: none; } }
+  .contact-details { margin-top: 3rem; display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap; }
+  .contact-detail { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 1rem; color: var(--gray); letter-spacing: 1px; }
+  .contact-detail span { color: var(--white); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="index.html"><img src="logo.png" alt="C&D Metal Recycling"></a>
+  <ul class="nav-links">
+    <li><a href="services.html">Services</a></li>
+    <li><a href="snow-removal.html">Snow Removal</a></li>
+    <li><a href="escrap.html">E-Scrap</a></li>
+    <li><a href="why-us.html">Why Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-contact-block"><span class="nav-contact-name">Curtis Houghton</span><a href="tel:9062369023" class="nav-phone">📞 906-236-9023</a></div>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-content">
+    <div class="hero-tag"><span aria-hidden="true">📍</span> Upper Peninsula, Michigan</div>
+    <h1>WE BUY<br><span class="green">SCRAP METAL!</span></h1>
+    <div class="hero-sub">TOP DOLLAR PAID — FAST SERVICE</div>
+    <div class="hero-phones">
+      <div class="phone-badge-wrap"><span class="phone-badge-name">Curtis Houghton</span><a href="tel:9062369023" class="phone-badge">906-236-9023</a></div>
+      <a href="tel:9062505498" class="phone-badge">906-250-5498</a>
+    </div>
+    <div class="hero-btns">
+      <a href="services.html" class="btn-primary">Our Services</a>
+      <a href="contact.html" class="btn-outline">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-stripes"></div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num">TOP$</div>
+      <div class="stat-label">Prices Paid</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">24/7</div>
+      <div class="stat-label">Snow Removal</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">5</div>
+      <div class="stat-label">Services Offered</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">UP</div>
+      <div class="stat-label">Michigan Based</div>
+    </div>
+  </div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker-bar" aria-hidden="true">
+  <div class="ticker-inner">
+    <span class="ticker-item">WE BUY SCRAP METAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">JUNK CAR REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">E-WASTE RECYCLING</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">SNOW REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">TOP PRICES PAID</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">FULLY INSURED</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">24/7 SERVICE</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">WE BUY SCRAP METAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">JUNK CAR REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">E-WASTE RECYCLING</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">SNOW REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">TOP PRICES PAID</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">FULLY INSURED</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">24/7 SERVICE</span><span class="ticker-sep">◆</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">What We Do</p>
+      <h2 class="section-title">OUR <span class="green">SERVICES</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="services-grid reveal">
+      <a class="service-card" href="services.html#scrap-metal">
+        <span class="service-icon" aria-hidden="true">🔩</span>
+        <h3>Scrap Metal</h3>
+        <p>We buy all types of scrap metal — ferrous and non-ferrous. Bring it in or we'll come to you. Top dollar every time.</p>
+        <span class="service-arrow">Learn More →</span>
+      </a>
+      <a class="service-card" href="services.html#junk-removal">
+        <span class="service-icon" aria-hidden="true">🚛</span>
+        <h3>Junk Removal</h3>
+        <p>Got junk? We'll haul it away fast and clean. Commercial and residential junk removal throughout the UP.</p>
+        <span class="service-arrow">Learn More →</span>
+      </a>
+      <a class="service-card" href="escrap.html">
+        <span class="service-icon" aria-hidden="true">💻</span>
+        <h3>E-Waste Recycling</h3>
+        <p>We pay for CPUs, RAM, server boards, telecom boards, and clean circuit boards. Responsible electronics disposal.</p>
+        <span class="service-arrow">Learn More →</span>
+      </a>
+      <a class="service-card" href="services.html#junk-cars">
+        <span class="service-icon" aria-hidden="true">🚗</span>
+        <h3>Buying Junk Cars</h3>
+        <p>Running or not — we buy junk vehicles. Fast pickup, cash paid, no hassle. Call for a quote today.</p>
+        <span class="service-arrow">Learn More →</span>
+      </a>
+      <a class="service-card" href="snow-removal.html">
+        <span class="service-icon" aria-hidden="true">❄️</span>
+        <h3>Snow Removal</h3>
+        <p>24/7 snow bank pushback and removal for commercial and residential properties. Keep your lot open all winter.</p>
+        <span class="service-arrow">Learn More →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <h2>CASH FOR YOUR SCRAP!</h2>
+  <p>Fast, Friendly Service · Top Prices Paid · Same Day Pickup Available</p>
+  <a href="tel:9062369023" class="btn-dark">Call Now: 906-236-9023</a>
+</div>
+
+<!-- SNOW REMOVAL -->
+<section id="snow">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Winter Services</p>
+      <h2 class="section-title">SNOW <span class="green">REMOVAL</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="snow-layout reveal">
+      <div class="snow-left">
+        <p style="color:var(--gray); line-height:1.7; margin-bottom:2rem; font-size:1rem;">Keep your property accessible and safe all winter long. We push back large snow banks and fully clear and remove snow — available 24/7 for commercial and residential customers across the UP.</p>
+        <ul class="snow-checklist">
+          <li>Push Back Large Snow Banks</li>
+          <li>Clear &amp; Remove Snow</li>
+          <li>Open Up Parking Lots &amp; Entrances</li>
+          <li>Driveways &amp; Access Roads</li>
+          <li>Emergency Response Available</li>
+        </ul>
+        <div class="badge-row" style="margin-top: 2rem;">
+          <span class="badge">Fully Insured</span>
+          <span class="badge">24/7 Available</span>
+          <span class="badge">Commercial</span>
+          <span class="badge">Residential</span>
+        </div>
+        <div style="margin-top:2rem;">
+          <a href="snow-removal.html" class="btn-primary">Full Details</a>
+        </div>
+      </div>
+      <div class="snow-right">
+        <h3>READY TO CLEAR?</h3>
+        <p>Don't let snow banks shut down your business or block your driveway. Our equipment handles the biggest jobs fast. Call us any time — day or night.</p>
+        <div><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;letter-spacing:2px;color:var(--gray);text-transform:uppercase;display:block;margin-bottom:2px;">Curtis Houghton</span><a href="tel:9062369023" class="snow-phone">906-236-9023</a></div>
+        <a href="tel:9062505498" class="snow-phone">906-250-5498</a>
+        <a href="tel:9062369023" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">Call For Snow Removal</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- E-SCRAP -->
+<section id="escrap">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Electronics Recycling</p>
+      <h2 class="section-title">E-SCRAP <span class="green">PRICING</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="escrap-board reveal">
+      <div class="escrap-header">
+        <h2>E-SCRAP — PAID ITEMS</h2>
+        <p>Clean &amp; Sorted Pays More</p>
+      </div>
+      <div class="escrap-cols">
+        <div class="escrap-col">
+          <div class="escrap-col-title paid">✅ WE PAY FOR:</div>
+          <ul class="escrap-list">
+            <li><span class="dot green" aria-hidden="true"></span>CPUs (All Types)</li>
+            <li><span class="dot green" aria-hidden="true"></span>RAM / Memory</li>
+            <li><span class="dot green" aria-hidden="true"></span>Server Boards</li>
+            <li><span class="dot green" aria-hidden="true"></span>Telecom Boards</li>
+            <li><span class="dot green" aria-hidden="true"></span>Clean Circuit Boards</li>
+          </ul>
+        </div>
+        <div class="escrap-col">
+          <div class="escrap-col-title notpaid">🚫 NOT PAID (Accepted Only):</div>
+          <ul class="escrap-list">
+            <li><span class="dot red" aria-hidden="true"></span>TVs &amp; Monitors</li>
+            <li><span class="dot red" aria-hidden="true"></span>Printers &amp; Copiers</li>
+            <li><span class="dot red" aria-hidden="true"></span>Keyboards / Mice</li>
+            <li><span class="dot red" aria-hidden="true"></span>Mixed Household Electronics</li>
+          </ul>
+        </div>
+      </div>
+      <div class="escrap-footer">Prices Vary by Grade &amp; Condition — Call for Current Rates</div>
+    </div>
+    <div style="text-align:center; margin-top:2.5rem;" class="reveal">
+      <a href="escrap.html" class="btn-primary">Full E-Scrap Details</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">The C&amp;D Difference</p>
+      <h2 class="section-title">WHY CHOOSE <span class="green">US?</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">01</span>
+        <span class="why-icon" aria-hidden="true">💰</span>
+        <h3>Top Prices</h3>
+        <p>We pay more for your scrap. No lowball offers — just fair, competitive rates every time.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">02</span>
+        <span class="why-icon" aria-hidden="true">⚡</span>
+        <h3>Fast Service</h3>
+        <p>Same-day pickup available. We show up on time and get the job done right.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">03</span>
+        <span class="why-icon" aria-hidden="true">🛡️</span>
+        <h3>Fully Insured</h3>
+        <p>Licensed and fully insured for all services. Your property is protected.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">04</span>
+        <span class="why-icon" aria-hidden="true">🕐</span>
+        <h3>24/7 Snow</h3>
+        <p>Winter storms don't wait — neither do we. Available around the clock for snow removal.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">05</span>
+        <span class="why-icon" aria-hidden="true">🤝</span>
+        <h3>Local &amp; Trusted</h3>
+        <p>We're a UP Michigan business serving our own community. No out-of-state middlemen.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num" aria-hidden="true">06</span>
+        <span class="why-icon" aria-hidden="true">♻️</span>
+        <h3>Eco Responsible</h3>
+        <p>Every pound of metal we recycle keeps waste out of landfills. Good for your wallet and the environment.</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:3rem;" class="reveal">
+      <a href="why-us.html" class="btn-outline">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Get In Touch</p>
+      <h2 class="section-title">CALL US <span class="green">TODAY!</span></h2>
+      <div class="divider" style="margin:0 auto 2rem;"></div>
+    </div>
+    <div class="contact-phones reveal">
+      <div class="contact-phone-block">
+        <div class="contact-phone-label">Main Line</div>
+        <div><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;letter-spacing:2px;color:var(--gray);text-transform:uppercase;display:block;margin-bottom:2px;">Curtis Houghton</span><a href="tel:9062369023" class="contact-phone-num">906-236-9023</a></div>
+      </div>
+      <div class="contact-divider"></div>
+      <div class="contact-phone-block">
+        <div class="contact-phone-label">Second Line</div>
+        <a href="tel:9062505498" class="contact-phone-num">906-250-5498</a>
+      </div>
+    </div>
+    <div class="contact-details reveal">
+      <div class="contact-detail">Website: <span>www.CDMetalRecycling.com</span></div>
+      <div class="contact-detail">Area: <span>Upper Peninsula, Michigan</span></div>
+      <div class="contact-detail">Snow Removal: <span>24/7 Available</span></div>
+    </div>
+    <div style="margin-top:3rem;" class="reveal">
+      <a href="contact.html" class="btn-primary" style="font-size:1.1rem; padding:16px 44px;">📞 CALL NOW</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo"><img src="logo.png" alt="C&D Metal Recycling"></div>
+      <div class="footer-tagline">Upper Peninsula Michigan's Scrap Metal &amp; Recycling Experts</div>
+      <div class="footer-contact-small">
+        906-236-9023 · 906-250-5498<br>
+        www.CDMetalRecycling.com
+      </div>
+    </div>
+    <nav class="footer-nav">
+      <a href="services.html">Services</a>
+      <a href="snow-removal.html">Snow Removal</a>
+      <a href="escrap.html">E-Scrap</a>
+      <a href="why-us.html">Why Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-copy">© <script>document.write(new Date().getFullYear())</script> C&amp;D Metal Recycling. Upper Peninsula, Michigan. All Rights Reserved.</div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "C&D Metal Recycling",
+  "telephone": ["906-236-9023", "906-250-5498"],
+  "url": "https://www.cdmetalrecycling.com",
+  "areaServed": "Upper Peninsula, Michigan",
+  "priceRange": "$$",
+  "description": "Scrap metal buying, junk removal, e-waste recycling, and 24/7 snow removal in Michigan's Upper Peninsula."
+}
+</script>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(r => observer.observe(r));
+
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      navLinks.classList.remove('open');
+    });
+  });
+</script>
+</body>
+</html>
