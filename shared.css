@@ -38,7 +38,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  height: 68px;
+  height: 68px; /* updated */
   gap: 1rem;
 }
 nav::after {
