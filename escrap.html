@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Scrap Pricing | C&D Metal Recycling | Electronics Recycling UP Michigan</title>
+<meta name="description" content="C&D Metal Recycling pays cash for CPUs, RAM, server boards, and circuit boards. Free e-waste drop-off for TVs and monitors. Upper Peninsula, Michigan.">
+<meta property="og:title" content="E-Scrap Pricing | C&D Metal Recycling | UP Michigan">
+<meta property="og:description" content="We pay for CPUs, RAM, server boards, and clean circuit boards. Free responsible drop-off for TVs, monitors, and household electronics.">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.cdmetalrecycling.com/escrap.html">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="shared.css">
+<noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+<style>
+
+  /* ── NAV FORCE FIX ── */
+  nav {
+    position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important;
+    z-index: 1000 !important;
+    background: rgba(6,6,6,0.97) !important;
+    backdrop-filter: blur(20px) !important;
+    border-bottom: 1px solid rgba(109,212,0,0.18) !important;
+    box-shadow: 0 2px 50px rgba(0,0,0,0.8) !important;
+    padding: 0 2.5rem !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    height: 68px !important;
+    gap: 1rem !important;
+  }
+  nav::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #6dd400 20%, #8fff00 50%, #6dd400 80%, transparent 100%);
+    opacity: 0.5;
+  }
+  .nav-logo { display: flex !important; align-items: center !important; text-decoration: none; flex-shrink: 0; }
+  .nav-logo img { height: 38px !important; width: auto !important; filter: drop-shadow(0 0 10px rgba(109,212,0,0.4)); }
+  .nav-links {
+    display: flex !important;
+    flex-direction: row !important;
+    list-style: none !important;
+    align-items: center !important;
+    gap: 0 !important;
+    flex: 1 1 auto !important;
+    justify-content: center !important;
+    margin: 0 !important; padding: 0 !important;
+    flex-wrap: nowrap !important;
+    position: static !important;
+    background: none !important;
+    border: none !important;
+  }
+  .nav-links li { flex: none !important; }
+  .nav-links a {
+    display: flex !important; align-items: center !important;
+    color: rgba(180,180,180,0.65) !important; text-decoration: none !important;
+    font-family: 'Barlow Condensed', sans-serif !important; font-weight: 700 !important;
+    font-size: 0.8rem !important; letter-spacing: 2.5px !important; text-transform: uppercase !important;
+    padding: 0 0.9rem !important; height: 68px !important; white-space: nowrap !important;
+    position: relative !important; transition: color 0.2s !important;
+    border-bottom: none !important; background: none !important;
+    justify-content: center !important;
+  }
+  .nav-links a::before { display: none !important; }
+  .nav-links a::after {
+    content: '' !important;
+    position: absolute !important; bottom: 0 !important; left: 50% !important; right: 50% !important;
+    height: 2px !important; background: #6dd400 !important;
+    transition: left 0.22s ease, right 0.22s ease !important;
+    display: block !important;
+  }
+  .nav-links a:hover { color: #fff !important; background: none !important; }
+  .nav-links a:hover::after { left: 0.9rem !important; right: 0.9rem !important; }
+  .nav-links a.active { color: #6dd400 !important; }
+  .nav-links a.active::after { left: 0.9rem !important; right: 0.9rem !important; }
+  .nav-call-btn {
+    display: flex !important; align-items: center !important;
+    gap: 10px !important; flex-shrink: 0 !important;
+    background: #6dd400 !important;
+    text-decoration: none !important;
+    padding: 0 20px !important; height: 42px !important;
+    clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%) !important;
+    box-shadow: 0 0 28px rgba(109,212,0,0.3) !important;
+  }
+  .nav-call-icon { font-size: 14px !important; line-height: 1 !important; }
+  .nav-call-text { display: flex !important; flex-direction: column !important; gap: 0 !important; }
+  .nav-call-label {
+    font-family: 'Barlow Condensed', sans-serif !important; font-weight: 900 !important;
+    font-size: 0.58rem !important; letter-spacing: 3px !important; text-transform: uppercase !important;
+    color: rgba(0,0,0,0.55) !important; line-height: 1 !important; display: block !important;
+  }
+  .nav-call-num {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 1.05rem !important; letter-spacing: 1.5px !important;
+    color: #080808 !important; line-height: 1.1 !important;
+  }
+  .hamburger { display: none !important; flex-direction: column; gap: 5px; cursor: pointer; padding: 7px 6px; flex-shrink: 0; }
+  .hamburger span { width: 22px; height: 2px; background: #6dd400; display: block; transition: all 0.3s; border-radius: 1px; }
+  @media (max-width: 1000px) {
+    .nav-links { display: none !important; }
+    nav { padding: 0 1.25rem !important; }
+    .hamburger { display: flex !important; }
+    .nav-call-label { display: none !important; }
+    .nav-call-btn { padding: 0 14px !important; height: 38px !important; }
+    .nav-call-num { font-size: 0.92rem !important; }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-links.open {
+      display: flex !important; flex-direction: column !important;
+      position: fixed !important; top: 68px !important; left: 0 !important; right: 0 !important;
+      background: rgba(6,6,6,0.99) !important;
+      border-bottom: 1px solid rgba(109,212,0,0.2) !important;
+      padding: 0.5rem 0 1rem !important; z-index: 999 !important;
+    }
+    .nav-links.open li { flex: unset !important; width: 100% !important; }
+    .nav-links.open a {
+      height: auto !important; padding: 0.9rem 1.75rem !important; font-size: 1.05rem !important;
+      color: rgba(200,200,200,0.8) !important; border-bottom: 1px solid rgba(109,212,0,0.07) !important;
+      justify-content: flex-start !important; width: 100% !important;
+    }
+    .nav-links.open a::after { display: none !important; }
+    .nav-links.open a.active { color: #6dd400 !important; background: rgba(109,212,0,0.05) !important; }
+  }
+
+  /* PRICING BOARD */
+  .pricing-board {
+    background: var(--dark); border: 2px solid var(--green);
+    overflow: hidden; box-shadow: 0 0 100px rgba(109,212,0,0.1);
+  }
+  .pricing-header {
+    background: var(--green); padding: 2rem; text-align: center;
+  }
+  .pricing-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2rem, 5vw, 3rem); color: var(--black); letter-spacing: 4px; }
+  .pricing-header p { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; color: rgba(0,0,0,0.65); letter-spacing: 2px; font-size: 1rem; text-transform: uppercase; margin-top: 0.25rem; }
+
+  .pricing-cols { display: grid; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 640px) { .pricing-cols { grid-template-columns: 1fr; } }
+  .pricing-col { padding: 2.5rem 2rem; }
+  .pricing-col:first-child { border-right: 1px solid rgba(109,212,0,0.2); }
+  .col-title {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 3px;
+    margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem;
+  }
+  .col-title.paid { color: var(--yellow); }
+  .col-title.free { color: #ff5555; }
+
+  .item-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+  .item-row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.9rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.15s;
+  }
+  .item-row:hover { background: rgba(109,212,0,0.04); }
+  .item-row:last-child { border-bottom: none; }
+  .item-name {
+    display: flex; align-items: center; gap: 0.75rem;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 1.1rem;
+  }
+  .item-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .item-dot.green { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .item-dot.red { background: #ff5555; box-shadow: 0 0 6px #ff5555; }
+  .item-tag {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+    font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; padding: 3px 10px;
+    clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
+  }
+  .tag-paid { background: rgba(109,212,0,0.15); color: var(--green); border: 1px solid rgba(109,212,0,0.3); }
+  .tag-free { background: rgba(255,85,85,0.12); color: #ff5555; border: 1px solid rgba(255,85,85,0.25); }
+  .tag-call { background: rgba(245,194,0,0.12); color: var(--yellow); border: 1px solid rgba(245,194,0,0.25); }
+
+  .pricing-footer {
+    background: rgba(109,212,0,0.07); border-top: 1px solid rgba(109,212,0,0.2);
+    padding: 1.25rem 2rem; text-align: center;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600;
+    color: var(--yellow); letter-spacing: 2px; font-size: 1rem; text-transform: uppercase;
+  }
+
+  /* TIPS SECTION */
+  .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+  .tip-card {
+    background: var(--dark2); padding: 1.75rem;
+    border: 1px solid rgba(109,212,0,0.12); border-top: 3px solid var(--green);
+    transition: all 0.25s;
+  }
+  .tip-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(109,212,0,0.1); }
+  .tip-num { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: rgba(109,212,0,0.25); line-height: 1; margin-bottom: 0.25rem; }
+  .tip-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.5rem; }
+  .tip-card p { font-size: 0.9rem; color: var(--gray); line-height: 1.6; }
+
+  /* EXPLAINER */
+  .explainer {
+    background: var(--dark3); border: 1px solid rgba(109,212,0,0.15);
+    padding: 2rem; margin-top: 3rem;
+  }
+  .explainer h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 2px; color: var(--white); margin-bottom: 1rem; }
+  .explainer p { color: var(--gray); line-height: 1.7; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><img src="logo.png" alt="C&D Metal Recycling"></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="snow-removal.html">Snow Removal</a></li>
+    <li><a href="escrap.html" class="active">E-Scrap</a></li>
+    <li><a href="why-us.html">Why Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="tel:9062369023" class="nav-call-btn">
+    <span class="nav-call-icon">📞</span>
+    <span class="nav-call-text">
+      <span class="nav-call-label">Call Now</span>
+      <span class="nav-call-num">906-236-9023</span>
+    </span>
+  </a>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> / E-Scrap</div>
+    <h1>E-SCRAP <span class="green">PRICING</span></h1>
+    <div class="page-hero-sub">Electronics Recycling · We Pay for CPUs, RAM, Server &amp; Telecom Boards</div>
+  </div>
+  <div class="page-hero-stripes"></div>
+</div>
+
+<!-- PRICING BOARD -->
+<section class="content-section" style="background: var(--dark);">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Electronics Recycling</p>
+      <h2 class="section-title">WHAT WE <span class="green">PAY FOR</span></h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="pricing-board reveal">
+      <div class="pricing-header">
+        <h2>E-SCRAP PRICE GUIDE</h2>
+        <p>Clean &amp; Sorted Always Pays More · Call for Current Rates</p>
+      </div>
+      <div class="pricing-cols">
+        <div class="pricing-col">
+          <div class="col-title paid">✅ We Pay For These</div>
+          <ul class="item-list">
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>CPUs — All Types</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>RAM / Memory Sticks</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>Server Boards</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>Telecom Boards</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>Clean Circuit Boards</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>Hard Drives (bare)</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot green" aria-hidden="true"></span>Networking Equipment</span>
+              <span class="item-tag tag-call">Call for $</span>
+            </li>
+          </ul>
+        </div>
+        <div class="pricing-col">
+          <div class="col-title free">🚫 Accepted, Not Paid</div>
+          <ul class="item-list">
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>TVs &amp; Monitors</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Printers &amp; Copiers</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Keyboards &amp; Mice</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Mixed Household Electronics</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Cable / Cords</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Small Appliances</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+            <li class="item-row">
+              <span class="item-name"><span class="item-dot red" aria-hidden="true"></span>Cell Phones / Tablets</span>
+              <span class="item-tag tag-free">Free Drop-Off</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="pricing-footer"><span aria-hidden="true">⚡</span> Prices vary by grade &amp; quantity — call 906-236-9023 for current rates</div>
+    </div>
+
+    <!-- EXPLAINER -->
+    <div class="explainer reveal">
+      <h3>WHY "FREE DROP-OFF" ITEMS AREN'T PAID</h3>
+      <p>Items like TVs, monitors, and printers contain hazardous materials (lead, mercury, cadmium) that require special handling and disposal — which has a cost. We accept these items responsibly at no charge to you rather than turning them away. It's the right thing to do for the UP and for the environment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS FOR MORE MONEY -->
+<section class="content-section" style="background: var(--black);">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Maximize Your Payout</p>
+      <h2 class="section-title">TIPS TO <span class="green">GET MORE</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="tips-grid reveal">
+      <div class="tip-card">
+        <div class="tip-num" aria-hidden="true">01</div>
+        <h3>Sort Your Material</h3>
+        <p>Keep CPUs separate from boards, and boards separate from drives. Sorted, clean material always grades higher and pays more than mixed loads.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-num" aria-hidden="true">02</div>
+        <h3>Remove Casings</h3>
+        <p>Strip out the circuit boards from plastic housings before you bring them in. The boards are what we pay for — the plastic isn't worth anything.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-num" aria-hidden="true">03</div>
+        <h3>Bring Large Quantities</h3>
+        <p>Larger quantities often qualify for better rates. If you're clearing out an office or warehouse, call ahead and we can arrange a pickup and special pricing.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-num" aria-hidden="true">04</div>
+        <h3>Call Ahead</h3>
+        <p>Current e-scrap commodity prices fluctuate. Call us first to get the latest rates and confirm we're accepting what you have before making the trip.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <h2>CALL FOR CURRENT E-SCRAP RATES!</h2>
+  <p>CPUs · RAM · Server Boards · Telecom Boards · Clean Boards</p>
+  <a href="tel:9062369023" class="btn-dark">Call 906-236-9023</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo"><img src="logo.png" alt="C&D Metal Recycling"></div>
+      <div class="footer-tagline">Upper Peninsula Michigan's Scrap Metal &amp; Recycling Experts</div>
+      <div class="footer-contact-small">906-236-9023 · 906-250-5498<br>www.CDMetalRecycling.com</div>
+    </div>
+    <nav class="footer-nav">
+      <a href="services.html">Services</a>
+      <a href="snow-removal.html">Snow Removal</a>
+      <a href="escrap.html">E-Scrap</a>
+      <a href="why-us.html">Why Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-copy">© <script>document.write(new Date().getFullYear())</script> C&amp;D Metal Recycling. Upper Peninsula, Michigan. All Rights Reserved.</div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(r => observer.observe(r));
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', () => { hamburger.classList.toggle('open'); navLinks.classList.toggle('open'); });
+  navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => { hamburger.classList.remove('open'); navLinks.classList.remove('open'); }));
+</script>
+</body>
+</html>
