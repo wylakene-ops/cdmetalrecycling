@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>C&D Metal Recycling | We Buy Scrap Metal | Marquette, MI</title>
-<meta name="description" content="C&D Metal Recycling buys scrap metal, junk cars, and e-waste in Michigan's Upper Peninsula. 24/7 snow removal. Call 906-236-9023 for a same-day quote.">
+<meta name="description" content="C&D Metal Recycling buys scrap metal, vehicles, and e-waste in Michigan's Upper Peninsula. 24/7 snow removal. Call 906-236-9023 for a same-day quote.">
 <meta property="og:title" content="C&D Metal Recycling | We Buy Scrap Metal | UP Michigan">
-<meta property="og:description" content="Top dollar paid for scrap metal, junk cars & e-waste. 24/7 snow removal. Serving the Upper Peninsula of Michigan.">
+<meta property="og:description" content="Top dollar paid for scrap metal, vehicles & e-waste. 24/7 snow removal. Serving the Upper Peninsula of Michigan.">
 <meta property="og:image" content="logo.png">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://www.cdmetalrecycling.com/">
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="shared.css">
 <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
 <style>
-
+ 
   /* ── NAV FORCE FIX ── */
   nav {
     position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important;
@@ -130,7 +130,7 @@
     .nav-links.open a::after { display: none !important; }
     .nav-links.open a.active { color: #6dd400 !important; background: rgba(109,212,0,0.05) !important; }
   }
-
+ 
   /* ── HERO ── */
   .hero {
     min-height: 100vh; display: flex; align-items: center; justify-content: center;
@@ -167,7 +167,17 @@
     padding: 2rem; max-width: 1000px;
     animation: fadeUp 0.9s ease both;
   }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  .hero-logo {
+    display: block; margin: 0 auto 2rem;
+    width: clamp(260px, 40vw, 480px); height: auto;
+    filter: drop-shadow(0 0 40px rgba(109,212,0,0.55)) drop-shadow(0 0 80px rgba(109,212,0,0.25));
+    animation: fadeUp 0.7s ease both;
+    transition: filter 0.3s;
+  }
+  .hero-logo:hover {
+    filter: drop-shadow(0 0 55px rgba(109,212,0,0.75)) drop-shadow(0 0 100px rgba(109,212,0,0.35));
+  }
+ 
   .hero-tag {
     display: inline-flex; align-items: center; gap: 8px;
     background: var(--green); color: var(--black);
@@ -201,7 +211,7 @@
   }
   .phone-badge:hover { background: var(--green); color: var(--black); text-shadow: none; transform: scale(1.05); }
   .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-
+ 
   /* ── STATS STRIP ── */
   .stats-strip {
     background: var(--dark2); border-top: 1px solid rgba(109,212,0,0.15);
@@ -225,14 +235,14 @@
     font-size: 0.8rem; letter-spacing: 2px; color: var(--gray);
     text-transform: uppercase; margin-top: 4px;
   }
-
+ 
   /* ── TICKER ── */
   .ticker-bar { background: var(--green); padding: 12px 0; overflow: hidden; }
   .ticker-inner { display: flex; animation: ticker 22s linear infinite; white-space: nowrap; }
   .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--black); padding: 0 3rem; }
   .ticker-sep { color: var(--black); opacity: 0.4; font-size: 1.5rem; line-height: 1; }
   @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-
+ 
   /* ── SERVICES ── */
   #services { background: var(--dark); position: relative; padding: 5rem 2rem; }
   #services::before {
@@ -270,11 +280,11 @@
     color: var(--green); transition: gap 0.2s;
   }
   .service-card:hover .service-arrow { gap: 10px; }
-
+ 
   /* CTA override — larger font than shared.css default */
   .cta-band h2 { font-size: clamp(2.5rem, 7vw, 5rem); }
   .cta-band p { font-size: 1.2rem; }
-
+ 
   /* ── SNOW REMOVAL ── */
   #snow { background: var(--dark2); position: relative; overflow: hidden; padding: 5rem 2rem; }
   #snow::after {
@@ -310,7 +320,7 @@
   .snow-right p { color: var(--gray); line-height: 1.6; margin-bottom: 1.5rem; font-size: 0.95rem; }
   .snow-phone { font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem; color: var(--green); letter-spacing: 3px; text-shadow: 0 0 20px var(--green-glow); display: block; margin-bottom: 0.3rem; text-decoration: none; }
   .snow-phone:hover { color: var(--green-bright); }
-
+ 
   /* ── E-SCRAP ── */
   #escrap { background: var(--black); padding: 5rem 2rem; }
   .escrap-board { background: var(--dark); border: 2px solid var(--green); overflow: hidden; box-shadow: 0 0 80px rgba(109,212,0,0.08); }
@@ -330,7 +340,7 @@
   .dot.green { background: var(--green); }
   .dot.red { background: #ff4444; }
   .escrap-footer { background: rgba(109,212,0,0.08); border-top: 1px solid rgba(109,212,0,0.2); padding: 1rem 2rem; text-align: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; color: var(--yellow); letter-spacing: 2px; font-size: 0.95rem; text-transform: uppercase; }
-
+ 
   /* ── WHY US ── */
   #why { background: var(--dark); padding: 5rem 2rem; }
   .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
@@ -344,7 +354,7 @@
   .why-icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
   .why-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 2px; color: var(--green); margin-bottom: 0.5rem; }
   .why-card p { color: var(--gray); font-size: 0.9rem; line-height: 1.6; }
-
+ 
   /* ── CONTACT ── */
   #contact { background: var(--black); text-align: center; position: relative; overflow: hidden; padding: 5rem 2rem; }
   #contact::before {
@@ -364,7 +374,7 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- NAV -->
 <nav>
   <a class="nav-logo" href="index.html"><img src="logo.png" alt="C&D Metal Recycling"></a>
@@ -385,20 +395,17 @@
   </a>
   <div class="hamburger"><span></span><span></span><span></span></div>
 </nav>
-
+ 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-orb hero-orb-1"></div>
   <div class="hero-orb hero-orb-2"></div>
   <div class="hero-content">
+    <img src="logo.png" alt="C&D Metal Recycling" class="hero-logo">
     <div class="hero-tag"><span aria-hidden="true">📍</span> Upper Peninsula, Michigan</div>
     <h1>WE BUY<br><span class="green">SCRAP METAL!</span></h1>
     <div class="hero-sub">TOP DOLLAR PAID — FAST SERVICE</div>
-    <div class="hero-phones">
-      <div class="phone-badge-wrap"><span class="phone-badge-name">Curtis Houghton</span><a href="tel:9062369023" class="phone-badge">906-236-9023</a></div>
-      <a href="tel:9062505498" class="phone-badge">906-250-5498</a>
-    </div>
     <div class="hero-btns">
       <a href="services.html" class="btn-primary">Our Services</a>
       <a href="contact.html" class="btn-outline">Contact Us</a>
@@ -406,7 +413,7 @@
   </div>
   <div class="hero-stripes"></div>
 </section>
-
+ 
 <!-- STATS STRIP -->
 <div class="stats-strip">
   <div class="stats-inner">
@@ -419,7 +426,7 @@
       <div class="stat-label">Snow Removal</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">5</div>
+      <div class="stat-num">4</div>
       <div class="stat-label">Services Offered</div>
     </div>
     <div class="stat-item">
@@ -428,19 +435,19 @@
     </div>
   </div>
 </div>
-
+ 
 <!-- TICKER -->
 <div class="ticker-bar" aria-hidden="true">
   <div class="ticker-inner">
     <span class="ticker-item">WE BUY SCRAP METAL</span><span class="ticker-sep">◆</span>
-    <span class="ticker-item">JUNK CAR REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">VEHICLE BUYOUT</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">E-WASTE RECYCLING</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">SNOW REMOVAL</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">TOP PRICES PAID</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">FULLY INSURED</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">24/7 SERVICE</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">WE BUY SCRAP METAL</span><span class="ticker-sep">◆</span>
-    <span class="ticker-item">JUNK CAR REMOVAL</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">VEHICLE BUYOUT</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">E-WASTE RECYCLING</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">SNOW REMOVAL</span><span class="ticker-sep">◆</span>
     <span class="ticker-item">TOP PRICES PAID</span><span class="ticker-sep">◆</span>
@@ -448,7 +455,7 @@
     <span class="ticker-item">24/7 SERVICE</span><span class="ticker-sep">◆</span>
   </div>
 </div>
-
+ 
 <!-- SERVICES -->
 <section id="services">
   <div class="section-inner">
@@ -464,12 +471,6 @@
         <p>We buy all types of scrap metal — ferrous and non-ferrous. Bring it in or we'll come to you. Top dollar every time.</p>
         <span class="service-arrow">Learn More →</span>
       </a>
-      <a class="service-card" href="services.html#junk-removal">
-        <span class="service-icon" aria-hidden="true">🚛</span>
-        <h3>Junk Removal</h3>
-        <p>Got junk? We'll haul it away fast and clean. Commercial and residential junk removal throughout the UP.</p>
-        <span class="service-arrow">Learn More →</span>
-      </a>
       <a class="service-card" href="escrap.html">
         <span class="service-icon" aria-hidden="true">💻</span>
         <h3>E-Waste Recycling</h3>
@@ -478,8 +479,8 @@
       </a>
       <a class="service-card" href="services.html#junk-cars">
         <span class="service-icon" aria-hidden="true">🚗</span>
-        <h3>Buying Junk Cars</h3>
-        <p>Running or not — we buy junk vehicles. Fast pickup, cash paid, no hassle. Call for a quote today.</p>
+        <h3>We Buy Vehicles</h3>
+        <p>Running or not — we buy cars, trucks, and vans. Fast pickup, cash paid, no towing fees. Call for a same-day quote.</p>
         <span class="service-arrow">Learn More →</span>
       </a>
       <a class="service-card" href="snow-removal.html">
@@ -491,14 +492,14 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- CTA BAND -->
 <div class="cta-band">
   <h2>CASH FOR YOUR SCRAP!</h2>
   <p>Fast, Friendly Service · Top Prices Paid · Same Day Pickup Available</p>
   <a href="tel:9062369023" class="btn-dark">Call Now: 906-236-9023</a>
 </div>
-
+ 
 <!-- SNOW REMOVAL -->
 <section id="snow">
   <div class="section-inner">
@@ -537,7 +538,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- E-SCRAP -->
 <section id="escrap">
   <div class="section-inner">
@@ -579,7 +580,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- WHY US -->
 <section id="why">
   <div class="section-inner">
@@ -631,7 +632,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- CONTACT -->
 <section id="contact">
   <div class="section-inner">
@@ -661,7 +662,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
@@ -683,7 +684,7 @@
   </div>
   <div class="footer-copy">© <script>document.write(new Date().getFullYear())</script> C&amp;D Metal Recycling. Upper Peninsula, Michigan. All Rights Reserved.</div>
 </footer>
-
+ 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -692,16 +693,16 @@
   "url": "https://www.cdmetalrecycling.com",
   "areaServed": "Upper Peninsula, Michigan",
   "priceRange": "$$",
-  "description": "Scrap metal buying, junk removal, e-waste recycling, and 24/7 snow removal in Michigan's Upper Peninsula."
+  "description": "Scrap metal buying, vehicle buyout, e-waste recycling, and 24/7 snow removal in Michigan's Upper Peninsula."
 }
 </script>
-
+ 
 <script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(r => observer.observe(r));
-
+ 
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
   hamburger.addEventListener('click', () => {
