@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wylakene-ops.github.io/cdmetalrecycling/sitemap.xml
